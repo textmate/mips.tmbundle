@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+xspim $TM_FILEPATH
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@R</string>
+	<key>name</key>
+	<string>Run in xspim</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.mips</string>
+	<key>uuid</key>
+	<string>0C1CE2DE-F2AF-43C6-A5F6-B998421EAAC6</string>
+</dict>
+</plist>
