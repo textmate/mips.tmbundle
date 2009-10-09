@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>mult	${1:\$t0}, ${2:\$t1}			# $1 * $2 = Hi and Lo registers
+mflo	${3:\$t2}					# copy Lo to $3
+</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>multiply</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>mult</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>ECD0D84E-F275-42CB-AAC1-E675235579C2</string>
 </dict>
 </plist>

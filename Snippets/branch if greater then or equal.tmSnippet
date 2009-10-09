@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>bge		${1:\$t0}, ${2:\$t1}, ${3:target}	# if $1 &gt;= $2 then $3
+</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>branch if greater then or equal</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>bge</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>6A8E47B3-46B6-4A9E-85DD-3719BCF6020F</string>
 </dict>
 </plist>

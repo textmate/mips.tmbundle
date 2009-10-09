@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>li		\$v0, 3		# system call #3 - print double
+la		\$a0, ${1:variable}
+syscall				# execute</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>print double</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>print</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>C1085122-0ED3-4C45-A2EC-AE1F0C867B42</string>
 </dict>
 </plist>

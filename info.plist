@@ -10,11 +10,125 @@
 	<string>Support for &lt;a href="http://en.wikibooks.org/wiki/Programming:MIPS_assembly"&gt;MIPS assembler&lt;/a&gt;.</string>
 	<key>name</key>
 	<string>MIPS Assembler</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>1C93C013-9814-4E0B-BA79-B987FB19621C</string>
+			<string>0C1CE2DE-F2AF-43C6-A5F6-B998421EAAC6</string>
+			<string>6490DEB3-3EE8-48D9-AE4D-209AEF138D90</string>
+			<string>FB01D839-1775-46B9-957B-1A68D210D945</string>
+			<string>AF08FDB2-F527-4BAE-8AE7-8C42FFC85E68</string>
+			<string>CBE88959-A5BC-4A5D-A7C4-C125C448537D</string>
+			<string>E7974776-254E-4A8B-9BE9-392A558E4E22</string>
+			<string>E670F342-6BE2-11D9-96CC-0011242E4184</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>6490DEB3-3EE8-48D9-AE4D-209AEF138D90</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>2C307A65-F254-44F7-8F6F-475005AE9187</string>
+					<string>72E29A82-6A08-4420-AC4F-19CCD8F96777</string>
+					<string>C1085122-0ED3-4C45-A2EC-AE1F0C867B42</string>
+					<string>2441B939-ECCF-4815-8B44-E91F6124FD92</string>
+				</array>
+				<key>name</key>
+				<string>Operating system</string>
+			</dict>
+			<key>AF08FDB2-F527-4BAE-8AE7-8C42FFC85E68</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>2B8E498B-DD6F-4815-AB95-DA2AE01B6BE6</string>
+					<string>19F56CDB-E6E5-4EBF-BF10-164CF1001317</string>
+					<string>0FC6E5A9-4C17-4865-A53D-233C56CF91B5</string>
+					<string>DFFBAC5F-C07A-49A8-8593-F06FD5FE56C4</string>
+					<string>D5562821-4176-44A4-BB02-B8CEB03187CD</string>
+					<string>5EBF2AC7-627C-4971-9881-84B91D9B827A</string>
+				</array>
+				<key>name</key>
+				<string>Load and store</string>
+			</dict>
+			<key>CBE88959-A5BC-4A5D-A7C4-C125C448537D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>56A260D5-7D59-4DE8-89C9-F09EF8429DFE</string>
+					<string>6DCA5FC6-9199-4C63-8942-E4651E80FF66</string>
+					<string>E3046DFB-BB1C-4052-98E9-B8416185A025</string>
+					<string>ECD0D84E-F275-42CB-AAC1-E675235579C2</string>
+					<string>D5F24791-FDDE-47FC-9FCC-66F7B77F1DD9</string>
+				</array>
+				<key>name</key>
+				<string>Arithemtic</string>
+			</dict>
+			<key>E7974776-254E-4A8B-9BE9-392A558E4E22</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>3B3A65C5-3EA8-49C4-9C5C-233AAFDE0FF0</string>
+					<string>92208817-3BC0-4850-B118-98B4528C5DF8</string>
+					<string>A795DACA-9018-4E9A-9F40-F9A6D94E358F</string>
+					<string>64E84153-3437-4ABC-A6E4-2B97A1937243</string>
+					<string>6A8E47B3-46B6-4A9E-85DD-3719BCF6020F</string>
+					<string>8DA62990-6318-4572-899B-DAA433C00002</string>
+					<string>6D9FFD17-43A2-4502-B759-8AA86EEF7C94</string>
+					<string>------------------------------------</string>
+					<string>E3C16D8E-16C6-49AB-9C81-9FBF0710C7F1</string>
+					<string>2D313705-F80D-45DD-9F99-AEB71BCDD6F6</string>
+					<string>25AAEEEE-4E28-4601-9C3A-863F05806E38</string>
+				</array>
+				<key>name</key>
+				<string>Control statements</string>
+			</dict>
+			<key>FB01D839-1775-46B9-957B-1A68D210D945</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>9687482F-184C-4556-A370-B9D0F479DA8E</string>
+					<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+				</array>
+				<key>name</key>
+				<string>Data declerations</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>ordering</key>
 	<array>
-		<string>E670F342-6BE2-11D9-96CC-0011242E4184</string>
+		<string>1C93C013-9814-4E0B-BA79-B987FB19621C</string>
+		<string>0C1CE2DE-F2AF-43C6-A5F6-B998421EAAC6</string>
 		<string>7FD88C2E-6BE3-11D9-9A40-0011242E4184</string>
 		<string>FB546558-427E-4421-9817-07A4C79D2220</string>
+		<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+		<string>9687482F-184C-4556-A370-B9D0F479DA8E</string>
+		<string>2C307A65-F254-44F7-8F6F-475005AE9187</string>
+		<string>72E29A82-6A08-4420-AC4F-19CCD8F96777</string>
+		<string>C1085122-0ED3-4C45-A2EC-AE1F0C867B42</string>
+		<string>2441B939-ECCF-4815-8B44-E91F6124FD92</string>
+		<string>E670F342-6BE2-11D9-96CC-0011242E4184</string>
+		<string>2B8E498B-DD6F-4815-AB95-DA2AE01B6BE6</string>
+		<string>19F56CDB-E6E5-4EBF-BF10-164CF1001317</string>
+		<string>5EBF2AC7-627C-4971-9881-84B91D9B827A</string>
+		<string>D5562821-4176-44A4-BB02-B8CEB03187CD</string>
+		<string>0FC6E5A9-4C17-4865-A53D-233C56CF91B5</string>
+		<string>DFFBAC5F-C07A-49A8-8593-F06FD5FE56C4</string>
+		<string>56A260D5-7D59-4DE8-89C9-F09EF8429DFE</string>
+		<string>E3046DFB-BB1C-4052-98E9-B8416185A025</string>
+		<string>6DCA5FC6-9199-4C63-8942-E4651E80FF66</string>
+		<string>ECD0D84E-F275-42CB-AAC1-E675235579C2</string>
+		<string>D5F24791-FDDE-47FC-9FCC-66F7B77F1DD9</string>
+		<string>3B3A65C5-3EA8-49C4-9C5C-233AAFDE0FF0</string>
+		<string>92208817-3BC0-4850-B118-98B4528C5DF8</string>
+		<string>A795DACA-9018-4E9A-9F40-F9A6D94E358F</string>
+		<string>64E84153-3437-4ABC-A6E4-2B97A1937243</string>
+		<string>6A8E47B3-46B6-4A9E-85DD-3719BCF6020F</string>
+		<string>8DA62990-6318-4572-899B-DAA433C00002</string>
+		<string>6D9FFD17-43A2-4502-B759-8AA86EEF7C94</string>
+		<string>E3C16D8E-16C6-49AB-9C81-9FBF0710C7F1</string>
+		<string>2D313705-F80D-45DD-9F99-AEB71BCDD6F6</string>
+		<string>25AAEEEE-4E28-4601-9C3A-863F05806E38</string>
 	</array>
 	<key>uuid</key>
 	<string>402D341A-6BE4-11D9-AEC0-0011242E4184</string>

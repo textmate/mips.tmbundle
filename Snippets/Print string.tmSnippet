@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>li	$v0, 4
-la	$a0, ${1:string_address}
-syscall</string>
+	<string>li		\$v0, 1		# system call #4 - print string
+la		\$a0, ${1:string}
+syscall				# execute</string>
 	<key>name</key>
-	<string>Print string</string>
+	<string>print string</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>

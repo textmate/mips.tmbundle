@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>b		${1:target}			# branch to $1
+</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>branch uncodnitional</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>b</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>3B3A65C5-3EA8-49C4-9C5C-233AAFDE0FF0</string>
 </dict>
 </plist>

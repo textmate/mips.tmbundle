@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>${1:var}: .${2:word} $3</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>variable</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>var</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>9687482F-184C-4556-A370-B9D0F479DA8E</string>
 </dict>
 </plist>

@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>j		${1:target}				# jump to $1
+</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>jump</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>j</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>E3C16D8E-16C6-49AB-9C81-9FBF0710C7F1</string>
 </dict>
 </plist>

@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:string}: .asciiz "$2"</string>
+	<string>div		${1:\$t0}, ${2:\$t1}			# $1 / $2
+mflo	${3:\$t2}					# $3 = floor($1 / $2) 
+mfhi	${4:\$t3}					# $4 = $1 mod $2 
+</string>
 	<key>name</key>
-	<string>string var</string>
+	<string>divide</string>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>tabTrigger</key>
-	<string>string</string>
+	<string>div</string>
 	<key>uuid</key>
-	<string>78C8E3C2-DF37-41D7-ACED-8532985FFE54</string>
+	<string>D5F24791-FDDE-47FC-9FCC-66F7B77F1DD9</string>
 </dict>
 </plist>
