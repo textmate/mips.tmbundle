@@ -7,19 +7,41 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-xspim $TM_FILEPATH
+"${TM_XSPIM:-xspim}" $TM_FILEPATH
 </string>
 	<key>input</key>
 	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@R</string>
 	<key>name</key>
 	<string>Run in xspim</string>
-	<key>output</key>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
 	<string>discard</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>xspim</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/xspim</string>
+				<string>/usr/local/bin/xspim</string>
+			</array>
+			<key>variable</key>
+			<string>TM_XSPIM</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>uuid</key>
 	<string>0C1CE2DE-F2AF-43C6-A5F6-B998421EAAC6</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>

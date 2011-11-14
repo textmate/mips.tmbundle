@@ -9,8 +9,6 @@
 [[ -z "$TM_FILEPATH" ]] &amp;&amp; TM_TMPFILE=$(mktemp -t pythonInTerm)
 : "${TM_FILEPATH:=$TM_TMPFILE}"; cat &gt;"$TM_FILEPATH"
 
-TPY=spim
-
 esc () {
 STR="$1" ruby &lt;&lt;"RUBY"
    str = ENV['STR']
@@ -24,7 +22,7 @@ osascript &lt;&lt;- APPLESCRIPT
 	tell app "Terminal"
 	    launch
 	    activate
-	    do script "clear; cd $(esc "${TM_DIRECTORY}"); $(esc "${TPY}") $(esc "${TM_FILEPATH}"); rm -f $(esc "${TM_TMPFILE}")"
+	    do script "clear; cd $(esc "${TM_DIRECTORY}"); $(esc "${TM_SPIM:-spim}") $(esc "${TM_FILEPATH}"); rm -f $(esc "${TM_TMPFILE}")"
 	    set position of first window to { 100, 100 }
 	end tell
 APPLESCRIPT
@@ -32,15 +30,37 @@ APPLESCRIPT
 </string>
 	<key>input</key>
 	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
 	<string>Run in spim</string>
-	<key>output</key>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
 	<string>discard</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>spim</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/spim</string>
+				<string>/usr/local/bin/spim</string>
+			</array>
+			<key>variable</key>
+			<string>TM_SPIM</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.mips</string>
 	<key>uuid</key>
 	<string>1C93C013-9814-4E0B-BA79-B987FB19621C</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
