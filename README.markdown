@@ -1,5 +1,3 @@
-## Added move command
-
 Description:
 ============
 
