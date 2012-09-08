@@ -58,6 +58,8 @@ APPLESCRIPT
 	</array>
 	<key>scope</key>
 	<string>source.mips</string>
+	<key>semanticClass</key>
+	<string>process.external.run.mips</string>
 	<key>uuid</key>
 	<string>1C93C013-9814-4E0B-BA79-B987FB19621C</string>
 	<key>version</key>

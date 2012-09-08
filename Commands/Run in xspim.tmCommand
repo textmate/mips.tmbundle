@@ -39,6 +39,8 @@
 	</array>
 	<key>scope</key>
 	<string>source.mips</string>
+	<key>semanticClass</key>
+	<string>process.external.run.mips</string>
 	<key>uuid</key>
 	<string>0C1CE2DE-F2AF-43C6-A5F6-B998421EAAC6</string>
 	<key>version</key>
